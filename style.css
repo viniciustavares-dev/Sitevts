@@ -20,6 +20,8 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
 .hamburguer{
     /*background-color: blue;*/
     width: 2rem;
@@ -105,7 +107,7 @@ header{
 
 .banner{
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 15%;
     
 }
