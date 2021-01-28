@@ -505,3 +505,32 @@ footer{
      display: flex;
 
  }
+
+
+ @media screen and (max-width:400px){
+
+    .footer-content {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        
+    }
+
+    .footer-content p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align:bottom;
+        position: absolute;
+        font-size: 0.9rem;
+    }
+
+    .social-list ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        position: relative;
+    }
+
+ }
