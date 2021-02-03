@@ -450,6 +450,7 @@ visibility: visible;
     font-family: var(--font-secundary);
     text-transform: uppercase;
     transition: all 0.3s;
+    color: white;
 }
 
 .field:focus ~ label{
@@ -516,7 +517,7 @@ footer{
     .footer-content {
         width: 100%;
         display: flex;
-        justify-content: left;
+        justify-content: center;
         
     }
 
@@ -524,7 +525,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align:bottom;
+        text-align:center;
         position: absolute;
         font-size: 0.9rem;
     }
@@ -559,10 +560,21 @@ footer{
     }
 
     .card{
-        height:170px ;
+        height:155px ;
         margin-bottom: 15px;
     }
 
+    .card-info{
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        padding: 1.5rem;
+       
+        text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0,.4);
+        transition: all .3s;
+    }
+    
     .sessao-contato{
         height: 615px;
         margin-top: 15px;
@@ -612,7 +624,7 @@ header{
     .footer-content {
         width: 100%;
         display: flex;
-        justify-content: left;
+        justify-content: center;
         
     }
 
@@ -620,7 +632,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align:bottom;
+        text-align:center;
         position: absolute;
         font-size: 0.9rem;
     }
@@ -711,7 +723,7 @@ header{
     .footer-content {
         width: 100%;
         display: flex;
-        justify-content: left;
+        justify-content: center;
         
     }
 
@@ -719,7 +731,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align:bottom;
+        text-align:center;
         position: absolute;
         font-size: 0.9rem;
     }
